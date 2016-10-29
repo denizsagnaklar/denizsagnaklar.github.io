@@ -1,0 +1,319 @@
+html, body{ margin: 0px; padding: 0px; }
+
+body{font-family:Georgia, serif;}
+#content{
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+.container{
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+#tophead{
+	color: #4626c5;
+	display:block;
+	background-color: #E3F4F9;
+	padding: 0px 20px;
+	font-size: 13px;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+}
+
+#tophead p{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#tophead span{
+	color: red;
+}
+
+#tophead ul{
+	float: right;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+#tophead ul li{
+	 display: inline-block; 
+	 padding: 0px 1px;
+}
+
+#tophead ul li a{ text-decoration: none; color: gray;}
+
+#tophead ul li a:hover {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#tophead li:first-child a{
+	border-right: 1px solid gray;
+	padding-right: 5px;
+}
+#mainheader{
+	font-size: 13px;
+	text-align: center;
+}
+
+#mainheader li{
+	margin: 10px;
+}
+
+#mainheader img{
+	height: auto;
+	padding: 10px;
+}
+
+#mainheader ul li{
+	display: inline-block;
+}
+
+#mainheader ul li a{ text-decoration: none; color: #4626c5;}
+
+#mainheader ul li a:hover{ 
+	color:#6dcde5;
+}
+	
+#sayfalar{
+	float: left;
+	margin: 0px;
+	padding: 0;
+	margin-top: 20px;
+}
+
+
+#actions{
+	float: right;
+	list-style-type: none;
+	text-align: right;
+	padding: 0px;
+	border: 0px none;
+	margin: 0px;
+	margin-top: 20px;
+}
+
+
+#mainimg img{
+	width:100%;
+	height:auto; 
+	display: block;
+
+}
+
+.divider{
+	padding-top: 10px;
+	padding-bottom: 8px;
+	color: #6b6b6b;
+	display: inline-block;
+	font-size: 14px;
+	width: 1000px;
+}
+
+.divider p{
+	color: black;
+	font-family:serif;
+	font-size:18px;
+
+}
+
+.divider span{
+	color: #656565;
+	font-size: 15px;
+
+}
+.orta{
+	display: inline-block;
+	border-top: 2px solid #eaeaea;
+	border-bottom: 2px solid #eaeaea;
+	padding-bottom: 5px;
+
+}
+
+.parAB{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 481px;
+	height: 540px;
+}
+
+
+.parAB p{
+	color: #656565;
+	font-size: 12px;
+
+}
+
+.parAB span{
+	color: black;
+	font-family:serif;
+	font-size:18px;
+}
+#parA{ 
+	float: left;
+	
+}
+
+#Aimages img:first-child{
+	float: right;
+}
+#Aimages img:nth-child(2){
+	float: left;
+}
+#Aimages{
+	width: 481px;
+}
+
+#Aimages img {
+	margin: 20px 0px;
+}
+
+#bottompara{
+	display: inline-block;
+	width: 481px;
+
+}
+
+#bottompara p{
+	float: left;
+
+}
+
+#bottompara img {
+
+	float: right; 
+
+}
+#parB {
+	width:50%;
+	float: right;
+	text-align: right;
+}
+
+#parB img{
+	margin: 0px;
+	padding-top: 20px;
+	float: none;
+}
+
+#parB p{
+	text-align: center;
+}
+
+button{
+	border: 2px solid white;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 1px 1px #d8d8d8;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+
+
+ }
+
+.divider button{
+	float: right;
+}
+.bottompics{
+	display: inline-block;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.bottompics > div{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	float: left;
+	margin: 0px 10px;
+	width: 235px;
+}
+
+#mainfooter{
+	background-color: #a27f79;
+	display: block;
+	color: white;
+}
+
+#mainfooter ul{display: inline-block;padding: 6px 34px;}
+
+#mainfooter ul li {
+	text-decoration: none;
+	list-style: none;
+	padding: 1px;
+}
+
+#contact{
+	font-size: 13px;
+	text-align: center;
+	display: block;
+
+}
+#contact img{
+	height: auto;
+	float: left;
+}
+#contact ul{
+	float: left;
+	padding-right: 55px;
+	0: 2px 0px 0px 0px #e9e9e9
+	box-shadow: 2px 0px 0px 0px #e9e9e9;
+	margin: 20px 40px 20px 20px;
+	box-shadow: 2px 0px 0px 0px #e9e9e9;
+}
+
+#contact ul li{
+	display: inline-block;
+}
+
+#contact ul li a{ text-decoration: none; color: gray; font-size:10px;}
+
+#contact ul li a:hover{ 
+	color:#eec3b6;
+}
+#contact p{
+	float: left;
+	margin: 20px 40px 20px 20px;
+	padding-right: 55px;
+	box-shadow: 2px 0px 0px 0px #e9e9e9;
+}
+#contact form{
+	float: left;
+	margin: 20px;
+}
+#contact input[type=email]{
+	margin: 10px;
+}
+#footer{
+	font-size: 13px;
+	text-align: center;
+	display: inline-block;
+}
+
+#footer li{
+	margin: 10px;
+}
+
+#footer ul li{
+	display: inline-block;
+}
+
+#footer ul li a{ text-decoration: none; color: gray;}
+
+#footer ul li a:hover{ 
+	color:#eec3b6;
+}
+
+#footer p{
+	float: right;
+}
+
