@@ -24,7 +24,7 @@ header{
 	top: 0px;
 	right: 0px;
 }
-section{ display: block; padding-top: 400px; padding-right: 100px; padding-left: 100px;}
+section{ display: block; padding-top: 400px; position: center;}
 
 section a img{ height: 80px; width: 80px;}
 section a{
