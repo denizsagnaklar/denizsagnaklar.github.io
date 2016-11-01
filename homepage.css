@@ -20,35 +20,53 @@ header{
 
 }
 
-section{ 
-	display: flex; 
+.contact{ 
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	top: 500px;
 }
 
-section a img{ 
+footer{ 
+	position: absolute;
+	right:0;
+	left:0;
+	bottom: 0;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer a img{ 
 	height: 80px;
 	width: 80px;
 
 }
-section a{
-    font-weight: bold;
-    font-size: 15px;
+footer a{
     margin-right:70px;
+    font-family:'Bungee Hairline';
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 
-section a:hover{
+footer a:hover{
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-section .borders{
+footer .borders{
 	border-radius:100%;
-	border:solid 2px #050aa1;
+	border:solid 2px #070959;
 }
 
-
+footer #credit{
+	position: absolute;
+	right:0;
+	left:0;
+	bottom: 0;
+	padding: 1rem;
+	text-align: right;
+	margin-right: 0;
+}
