@@ -3,11 +3,11 @@ html, body{ margin: 0px; padding: 0px; }
 body{
 	font-family:Georgia, serif;
 	background-image: url("cellhori.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: 700px;
-    background-color: #858585;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: 700px;
+	background-color: #858585;
 }
 
 
@@ -31,7 +31,7 @@ footer{
 	right:0;
 	left:0;
 	bottom: 0;
-	padding: 1rem;
+	padding-bottom: 4.5%;
 	text-align: center;
 }
 
@@ -41,8 +41,8 @@ footer a img{
 
 }
 footer a{
-    margin-right:70px;
-    font-family:'Bungee Hairline';
+	margin-right:70px;
+	font-family:'Bungee Hairline';
 	font-size: 13px;
 	text-decoration: none;
 	color: black;
