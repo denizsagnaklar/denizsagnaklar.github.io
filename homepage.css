@@ -26,7 +26,7 @@ header{
     top: 0px;
     right: 0px;
 }
-section{ display: inline-block; padding-top: 400px; padding-left: 200px;}
+section{ display: block; padding-top: 400px; padding-left: 200px;}
 
 section a img{ 
 	height: 80px;
