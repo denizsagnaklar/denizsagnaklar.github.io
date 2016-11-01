@@ -3,14 +3,12 @@ html, body{ margin: 0px; padding: 0px; }
 body{
 	font-family:Georgia, serif;
 	background-image: url("cellhori.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: 600px;
-    background-color: #858585;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: 600px;
+	background-color: #858585;
 }
-
-
 header{
 	font-family:'Bungee Hairline', cursive;
 	text-align: center;
@@ -23,16 +21,12 @@ header{
 
 #corner{
 	position: absolute;
-    top: 0px;
-    right: 0px;
+	top: 0px;
+	right: 0px;
 }
-section{ display: block; padding-top: 400px; padding-left: 200px;}
+section{ display: block; padding-top: 400px; padding-right: 100px; padding-left: 100px;}
 
-section a img{ 
-	height: 80px;
-	width: 80px;
-
-}
+section a img{ height: 80px; width: 80px;}
 section a{
     font-weight: bold;
     font-size: 15px;
