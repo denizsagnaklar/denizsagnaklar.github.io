@@ -3,11 +3,11 @@ html, body{ margin: 0px; padding: 0px; }
 body{
 	font-family:Georgia, serif;
 	background-image: url("cellhori.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: 600px;
-    background-color: #858585;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: 700px;
+	background-color: #858585;
 }
 
 
@@ -15,42 +15,58 @@ header{
 	font-family:'Bungee Hairline', cursive;
 	text-align: center;
 	font-weight: bold;
-	font-size: 85px;
+	font-size: 80px;
 	padding-top: 50px;
-	padding-right: 45px;
 
 }
 
-#corner{
+.contact{ 
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+footer{ 
 	position: absolute;
-    top: 0px;
-    right: 0px;
+	right:0;
+	left:0;
+	bottom: 0;
+	padding-bottom:4.5%;
+	text-align: center;
 }
-section{ display: inline-block; padding-top: 400px; padding-left: 200px;}
 
-section a img{ 
+footer a img{ 
 	height: 80px;
 	width: 80px;
 
 }
-section a{
-    font-weight: bold;
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 50px;
+footer a{
+	margin-right:70px;
+	font-family:'Bungee Hairline';
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 
-section a:hover{
+footer a:hover{
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-section .borders{
+footer .borders{
 	border-radius:100%;
-	border:solid 2px #050aa1;
+	border:solid 2px #070959;
 }
 
-
+footer #credit{
+	position: absolute;
+	right:0;
+	left:0;
+	bottom: 0;
+	padding: 1rem;
+	text-align: right;
+	margin-right: 0;
+}
