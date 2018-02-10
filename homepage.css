@@ -2,12 +2,12 @@ html, body{ margin: 0px; padding: 0px; }
 
 body{
 	font-family:Georgia, serif;
-	background-image: url("cellhori.jpeg");
+	background-image: url("cellhori.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center; 
 	background-size: 700px;
-	background-color: #858585;
+	background-color: #fcfcfc;
 }
 
 
@@ -15,7 +15,8 @@ header{
 	font-family:'Bungee Hairline', cursive;
 	text-align: center;
 	font-weight: bold;
-	font-size: 80px;
+    color: #282830;
+	font-size: 75px;
 	padding-top: 50px;
 
 }
@@ -24,6 +25,12 @@ header{
 	align-items: center;
 	justify-content: center;
 	position: relative;
+    
+}
+
+.contact a{   
+    font-size: 20px;
+    text-align: center;
 }
 
 footer{ 
@@ -35,23 +42,19 @@ footer{
 	text-align: center;
 }
 
-footer a img{ 
-	height: 80px;
-	width: 80px;
-
-}
 footer a{
-	margin-right:70px;
-	font-family:'Bungee Hairline';
+	margin-right:35px;
+	font-family:'Raleway', thin;
 	font-size: 13px;
 	text-decoration: none;
-	color: black;
+	color: #282830;
 	font-weight: bold;
+    text-align: center;
 }
 
 
 footer a:hover{
-	color: white;
+	color: #eb3cb3;
 	font-weight: bold;
 	text-decoration: none;
 }
