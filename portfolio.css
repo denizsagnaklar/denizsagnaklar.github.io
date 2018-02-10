@@ -1,0 +1,74 @@
+html, body{ margin: 0px; padding: 0px; }
+
+body{
+	background-color: #fcfcfc;
+}
+h2{
+    padding: 1% 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #eb3cb3;
+}
+h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: -5%;
+}
+.insta{
+    width: 70%;
+    height: 80%;
+    padding: 5%;
+}
+.phonescreens{
+    margin-top: 10%;
+}
+img{
+    height: 90%;
+    width: 100%;
+    padding: 2% 20%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  height: 1000px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 500px;
+  max-height: 500px;
+  padding: 2%;
+}
+.column img {
+  vertical-align: middle;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+.column {
+ flex: 25%;
+ max-width: 38%;
+}}
+
+.column2 {
+  flex: 25%;
+  max-width: 25%;
+  max-height: 110%;
+  padding: 0 4%;
+}
+.column2 img {
+  vertical-align: middle;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column2 {
+    flex: 25%;
+    max-width: 25%;
+  }
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
